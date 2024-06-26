@@ -1,0 +1,21 @@
+{
+    "name": "tasksm/backend",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fabio-c266",
+            "email": "fabiocaldas266@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "firebase/php-jwt": "^6.10",
+        "ramsey/uuid": "^4.7",
+        "symfony/var-dumper": "^7.1",
+        "illuminate/support": "^11.11"
+    }
+}
